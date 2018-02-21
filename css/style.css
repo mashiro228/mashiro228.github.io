@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../images/gory_priroda_7475.jpg);
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.header{
+  justify-content: space-between;
+  display: flex;
+  flex-direction:;
+  margin-left:  4px;
+  margin-right: 4px;
+
+}
+.menu ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  margin-right: 19px;
+  font-size: 1.7em;
+
+}
+.menu ul li{
+
+  border-radius: 30px;
+  padding: 5px;
+  margin-right:  28px;
+  transition: 0.8s;
+
+}
+.menu ul li:hover{
+  background-color: white;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.name h1{
+  font-weight: 500;
+  font-size: 5em;
+  margin-bottom: 0px;
+}
+.name span{
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+.arow{
+  display: flex;
+  justify-content: center;
+  height: 140px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F4F4F0;
+  height: 700px;
+}
+
+#smile{
+  width: 100px;
+
+}
+.emojes{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 200px 0 200px;
+
+}
+.content1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+  transition: 0.8s;
+}
+.content1:hover{
+  box-shadow: 0 0 10px black;
+}
+.glav{
+  text-align: center;
+  font-size: 2em;
+}
+.socium{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.socium p{
+  font-weight:50;
+  font-size: 30px;
+}
+
+.socium h1{
+text-align: center;
+font-size: 2.9em;
+
+}
+.socium li{
+  font-weight:100;
+  font-size: 1.6em;
+}
+.deb{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FEF1F1;
+
+}
+
+
+.deb img{
+  margin-left: 0;
+  width: 500px;
+}
+.xach{
+  display: flex;
+  background-color: #E1EEF9;
+  order: 0 1;
+  align-items: center;
+  order: 1 0;
+  justify-content: space-around;
+}
+.putin{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #C1F1DC;
+}
+.putin img{
+    width: 700px;
+}
